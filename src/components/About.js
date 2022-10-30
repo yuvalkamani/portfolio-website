@@ -8,7 +8,7 @@ const About = () => {
           About Me
         </h1>
       </div>
-      <div className="lg:text-xl font-bold md:text-l sm:text-xs text-bold text-left mb-20 md:mt-10 lg:mt-20 lg:mx-[300px] md:mx-[50px]">
+      <div className="lg:text-xl font-bold md:text-xl sm:text-xs text-bold text-left mb-20 mt-20 lg:mx-[100px] md:mx-[50px]">
         <p className="text-silverwhite mb-5">
           Being a computer science student, coding is second nature to me.
           Having a passion for building programs and designing beautiful
