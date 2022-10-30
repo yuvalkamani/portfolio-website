@@ -4,10 +4,10 @@ import Experience from "./Experience";
 const Experiences = () => {
   return (
     <div className="w-full h-full content-center bg-black">
-      <h1 className="text-8xl font-bold text-center pt-10 text-transparent bg-clip-text bg-gradient-to-r from-gpl to-gpr">
+      <h1 className="text-8xl font-bold text-center pt-10 text-transparent bg-clip-text bg-gradient-to-r mx-10 from-gpl to-gpr">
         Experience
       </h1>
-      <div className="grid grid-cols-2 mt-10">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 mt-10">
         <Experience
           name="Web Administrator (Co-op)"
           place="University of Toronto Scarborough | "

@@ -79,27 +79,27 @@ function Header() {
           <h1
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
-            className="font-bold lg:text-[200px] md:text-[150px] sm:text-[75px] text-transparent bg-clip-text bg-gradient-to-r from-gl to-gr pt-[130px]"
+            className="font-bold lg:text-[200px] md:text-[100px] sm:text-[10px] text-transparent bg-clip-text bg-gradient-to-r from-gl to-gr pt-[130px]"
           >
             Yuval Kamani
           </h1>
         </div>
-        <div className="flex flex-row justify-between mx-[100px] my-[50px]">
-          <div className="text-left max-w-lg font-bold">
-            <p className="text-l text-gl ">
+        <div className="flex lg:flex-row md:flex-row sm:flex-col justify-between m-24">
+          <div className="text-left lg:max-w-lg md:max-w-md font-bold">
+            <p className="lg:text-l md:text-sm text-gl">
               Auto-generated jokes to make you cringe or laugh:
             </p>
-            <p className="m-5 text-xl">{joke}</p>
+            <p className="m-5 lg:text-xl md:text-base sm-text-xs">{joke}</p>
             <button
-              className="outline text-l outline-1 p-2 rounded-xl text-silverwhite bg-gl"
+              className="outline lg:text-l md:text-sm sm:text-xs outline-1 lg:p-2 md:p-1 rounded-xl text-silverwhite bg-gl"
               onClick={getAnotherJoke}
             >
               Another one?
             </button>
           </div>
-          <div className="text-xl font-bold text-right max-w-lg">
+          <div className="lg:text-xl md:text-base sm:text-base lg:max-w-lg md:max-w-md font-bold text-right max-w-lg">
             <p>Computer Science and Mathematics at UofT</p>
-            <div className="inline-flex">
+            <div className="inline-flex sm:visible">
               <h1>Aspiring &nbsp;</h1>
               <div className="text-gl">
                 <Typewriter

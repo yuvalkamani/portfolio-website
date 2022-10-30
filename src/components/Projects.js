@@ -8,7 +8,7 @@ const Projects = () => {
         <h1 className="text-8xl font-bold text-center pt-10 text-transparent bg-clip-text bg-gradient-to-r from-gpl to-gpr">
           Projects
         </h1>
-        <div className="grid grid-cols-3 mt-10">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-10">
           <Experience
             name="FitHub"
             place="React, ExpressJS, MongoDB, NodeJS, HTML, CSS, Jira, Figma"

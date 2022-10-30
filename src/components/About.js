@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-screen bg-black">
+    <div className="h-screen bg-black ">
       <div className="place-items-center text-center">
-        <h1 className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-abgl to-abgr pt-[130px]">
+        <h1 className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-abgl to-abgr lg:pt-[130px] md:pt-[100px]">
           About Me
         </h1>
       </div>
-      <div className="text-xl font-bold md:text-l sm:text-l text-bold text-left mx-[350px] mt-10">
+      <div className="lg:text-xl font-bold md:text-l sm:text-xs text-bold text-left mb-20 md:mt-10 lg:mt-20 lg:mx-[300px] md:mx-[50px]">
         <p className="text-silverwhite mb-5">
           Being a computer science student, coding is second nature to me.
           Having a passion for building programs and designing beautiful
@@ -36,7 +36,7 @@ const About = () => {
         </p>
         <p>I am seeking for an internship in Winter 2023</p>
         <p className="text-red-500">Previously: </p>
-        <p className="text-silverwhite">
+        <p className="text-silverwhite mb-[130px]">
           I worked as a Web Administrator at the University of Toronto
           Scarborough for my first co-op work term. I was responsible for over
           1000 content types and 10+ websites to migrate, test and maintain in
