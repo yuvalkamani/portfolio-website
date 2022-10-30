@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Typewriter from "typewriter-effect";
 import EmailIcon from "@mui/icons-material/Email";
 import { motion } from "framer-motion";
+import DescriptionIcon from "@mui/icons-material/Description";
 import "../App.css";
 import axios from "axios";
 
@@ -96,7 +97,7 @@ function Header() {
               Another one?
             </button>
           </div>
-          <div className="text-xl font-bold text-left max-w-lg">
+          <div className="text-xl font-bold text-right max-w-lg">
             <p>Computer Science and Mathematics at UofT</p>
             <div className="inline-flex">
               <h1>Aspiring &nbsp;</h1>
@@ -133,7 +134,9 @@ function Header() {
             <a
               href="https://drive.google.com/file/d/1D634QaOsD1XvF1LLuE4jEzu3HK4HOyb7/view?usp=sharing"
               target="_blank"
-            ></a>
+            >
+              <DescriptionIcon className="scale-150 m-2" />
+            </a>
           </div>
         </div>
         <div className="place-items-center text-center">
