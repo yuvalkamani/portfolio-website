@@ -21,7 +21,7 @@ const Projects = () => {
           <Experience
             name="Medical Application"
             place="Java, Android Studio, Firebase, JUnit, Mockito"
-            start="May 2022"
+            start="May 2021"
             p1="Programmed Android health booking application using object-oriented programming in Java, in collaboration with 4 other students"
             p2="Applied Agile methods, SOLID principles, daily scrum meetings and GitHub to smoothly develop the application whilst identifying and
             eliminating miscellaneous errors more efficiently"
@@ -30,7 +30,7 @@ const Projects = () => {
           <Experience
             name="Mock Twitter"
             place="Java, JUnit Test, Eclipse"
-            start="May 2022"
+            start="May 2021"
             p1="Developed Twitter mock using multiple design patterns, allowing users to follow one another, post tweets and display tweets"
             p2="Implemented a feature to find the top three hashtags used by the top 10 most influential people in 2020, using file manipulation and
             regular expressions"
