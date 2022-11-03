@@ -19,6 +19,22 @@ const Projects = () => {
             p3=" Created a detailed UI/UX design on Figma, to envision the frontend of the web application"
           />
           <Experience
+            name="Portfolio Website"
+            place="React, Tailwind CSS, Axios, Framer Motion, Jokes API"
+            start="Oct 2022"
+            p1="Implemented a React.js application to search and analyse cryptocurrencies in real-time"
+            p2="Used CoinGecko API to fetch cryptocurrency data and display it on a table"
+            p3="Utilized React hooks and states to allow change of data when rendering on the application"
+          />
+          <Experience
+            name="Crypto Tracker"
+            place="React, CSS, Axios, CoinGecko API"
+            start="Oct 2022"
+            p1="Implemented a React.js application to search and analyse cryptocurrencies in real-time"
+            p2="Used CoinGecko API to fetch cryptocurrency data and display it on a table"
+            p3="Utilized React hooks and states to allow change of data when rendering on the application"
+          />
+          <Experience
             name="Medical Application"
             place="Java, Android Studio, Firebase, JUnit, Mockito"
             start="May 2021"
@@ -42,7 +58,7 @@ const Projects = () => {
             start="Sep 2019"
             p1="Programmed a solar system simulator, using object-oriented programming and agile methods, to deliver a functioning and educating program to an end-user"
             p2="Utilized JavaFX to build an interactive and modern design where the user can control aspects such as gravitational pull, size of the planets and number of planets"
-            p3="Worked closely with the end-user to ensure all requirements are being met and thoroughly documented the development and testing of the application for future reference"
+            p3="Worked closely with the end-user to ensure all requirements are being met and thoroughly documented the development process"
           />
           <Experience
             name="Access to Bristol"
