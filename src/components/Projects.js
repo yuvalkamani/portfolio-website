@@ -14,59 +14,50 @@ const Projects = () => {
             place="React, ExpressJS, MongoDB, NodeJS, HTML, CSS, Jira, Figma"
             start="Sep 2022 - "
             end="Present"
-            p1="Developing a MERN stack web application to bring a social aspect to fitness, allowing users to connect with each other, create and schedule workouts and track progress, leading to an overall healthier lifestyle with friends"
-            p2="Coordinating with a team of 5 using Agile methodologies, holding weekly scrum meetings, tracking progress on Jira and Git"
-            p3=" Created a detailed UI/UX design on Figma, to envision the frontend of the web application"
+            p1="Building a MERN stack online application to add a social component to fitness, enabling users to interact with one another, plan and log workouts, and live a healthy lifestyle with their friends"
+            p2="Using Agile approaches, coordinated with a team of five, held weekly scrum meetings, and tracked progress on Jira and Git"
+            p3="Created a thorough UI/UX design on Figma to visualize the web application's front end"
           />
           <Experience
             name="Portfolio Website"
             place="React, Tailwind CSS, Axios, Framer Motion, Jokes API"
             start="Oct 2022"
-            p1="Implemented a React.js application to search and analyse cryptocurrencies in real-time"
-            p2="Used CoinGecko API to fetch cryptocurrency data and display it on a table"
-            p3="Utilized React hooks and states to allow change of data when rendering on the application"
+            p1="Integrated React.js with Tailwind CSS to construct a portfolio website that is aesthetically pleasing and interactive."
+            p2="Used Jokes API to retrieve data and show some programming jokes, giving the website a personal touch and making the user grin"
+            p3="Adopted Framer Motion and the typewriter effect, allowing for engaging animations and effects for a positive user experience"
           />
           <Experience
             name="Crypto Tracker"
             place="React, CSS, Axios, CoinGecko API"
             start="Oct 2022"
-            p1="Implemented a React.js application to search and analyse cryptocurrencies in real-time"
-            p2="Used CoinGecko API to fetch cryptocurrency data and display it on a table"
-            p3="Utilized React hooks and states to allow change of data when rendering on the application"
+            p1="Programmed a React.js application with CSS, to search and analyse cryptocurrencies in real-time"
+            p2="Used the CoinGecko API to retrieve cryptocurrency data and show it in a table with a function to search for the coins"
+            p3="Utilized React hooks and states to permit data modification when rendering on the application"
           />
           <Experience
             name="Medical Application"
             place="Java, Android Studio, Firebase, JUnit, Mockito"
             start="May 2021"
-            p1="Programmed Android health booking application using object-oriented programming in Java, in collaboration with 4 other students"
-            p2="Applied Agile methods, SOLID principles, daily scrum meetings and GitHub to smoothly develop the application whilst identifying and
-            eliminating miscellaneous errors more efficiently"
-            p3="Implemented multiple testing formats such as JUnit and Mockito to thoroughly test the program, leaving almost no margin for error"
+            p1=" Partnered with four students, to create an Android health booking application utilizing object-oriented programming in Java"
+            p2="Used Agile methods, SOLID principles, and GitHub to efficiently develop the application with minimal conflicts and roadblocks"
+            p3="Used JUnit and Mockito in combination with other testing formats to comprehensively test the software, leaving no room for error"
           />
           <Experience
             name="Mock Twitter"
             place="Java, JUnit Test, Eclipse"
             start="May 2021"
-            p1="Developed Twitter mock using multiple design patterns, allowing users to follow one another, post tweets and display tweets"
-            p2="Implemented a feature to find the top three hashtags used by the top 10 most influential people in 2020, using file manipulation and
-            regular expressions"
-            p3="Tested exhaustively using JUnit testing framework, covering all aspects of testable code to get 100% coverage"
+            p1="Used multiple design patterns to create a Twitter mockup that allowed users to follow one another, post tweets, and see tweets"
+            p2="Combined file manipulation and regular expressions to implement a feature that searched for the top three hashtags used by the top
+            10 most influential people in 2020"
+            p3="Tested extensively, using the JUnit testing framework, ensuring that 100% of the testable code is covered"
           />
           <Experience
             name="Solar System Simulator"
             place="Java, JavaFX, IntelliJ"
             start="Sep 2019"
-            p1="Programmed a solar system simulator, using object-oriented programming and agile methods, to deliver a functioning and educating program to an end-user"
-            p2="Utilized JavaFX to build an interactive and modern design where the user can control aspects such as gravitational pull, size of the planets and number of planets"
-            p3="Worked closely with the end-user to ensure all requirements are being met and thoroughly documented the development process"
-          />
-          <Experience
-            name="Access to Bristol"
-            place="Python, Arduino"
-            start="Feb 2019"
-            p1="Integrated Dijkstra’s algorithm to an Arduino using Python, to actively search for the shortest path in a game, receiving second place in the competition"
-            p2="Acquired expertise in breadboards to implement an automatic streetlight controller to turn on the streetlight if a car passes by, offering optimal energy usage"
-            p3="Selected from over 1000 applicants in Bristol and receieved certification of completion"
+            p1="Developed a solar system simulator using object-oriented programming and agile methods to provide an end-user with a functional and educational program"
+            p2="Used JavaFX to create an interactive and modern design in which the user can control aspects of space such as gravitation pull"
+            p3="Worked closely with the end-user to ensure that all requirements were met, and thoroughly documented the application's development"
           />
         </div>
       </div>

@@ -15,7 +15,7 @@ const About = () => {
           websites, I am eager to apply my excellent technical and soft skills
           to become a software engineer.
         </p>
-        <p className="text-green-500">Currently: </p>
+        <p className="text-purple-500">Currently: </p>
         <p className="text-silverwhite">
           I am studying in my third-year at the University of Toronto
           Scarborough. A few projects I am working on/planning to work on:
@@ -35,8 +35,8 @@ const About = () => {
           </ul>
         </p>
         <p>I am seeking for an internship in Winter 2023</p>
-        <p className="text-red-500">Previously: </p>
-        <p className="text-silverwhite mb-[130px]">
+        <p className="text-purple-500">Previously: </p>
+        <p className="text-silverwhite mb-5">
           I worked as a Web Administrator at the University of Toronto
           Scarborough for my first co-op work term. I was responsible for over
           1000 content types and 10+ websites to migrate, test and maintain in
